@@ -9,7 +9,7 @@
     top: 5%;
     min-width: 90%;
     min-height: 90%;
-  }
+  }  
 }
 @media only screen and (min-width: 769px) {
   .container {
@@ -23,6 +23,25 @@
     min-height: 50%;
   }
 }
+
+#tabela-imc {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  border: 1px solid #000000
+}
+
+#tabela-imc th, #tabela-imc td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: center;
+}
+
+.destaque-imc {
+  background-color: #ff0000;
+  font-weight: bold;
+}
+
 .data {
   display: inline-block;
   text-align: left;
@@ -44,9 +63,9 @@
 .data .form button {
   margin-top: 2em;
   display: inline;
-  background-color: #3b64ce;
-  border: 1px solid #3b64ce;
-  color: #fff;
+  background-color: #3B64CE;
+  border: 1px solid #3B64CE;
+  color: #FFF;
   min-width: 50px;
   text-align: center;
   box-shadow: 2px 2px 2px #000000;
@@ -61,18 +80,4 @@
   background-color: #504869;
   border: 1px solid #504869;
   box-shadow: 1.5px 1.5px 2px #808080;
-}
-
-.tabela {
-  margin: 20px 80px 20px 80px;
-  border-collapse: collapse;
-  width: auto;
-  border: 1px solid #000000;
-}
-
-.tabela th,
-.tabela td {
-  border: 1px solid #000000;
-  padding: 8px;
-  text-align: left;
 }
